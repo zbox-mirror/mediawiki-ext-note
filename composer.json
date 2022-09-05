@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-note",
+  "name": "cmfstore/mediawiki-ext-note",
   "type": "mediawiki-extension",
   "description": "MediaWiki notes extension.",
   "license": "MIT",
@@ -23,13 +23,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-note/issues",
-    "source": "https://github.com/cmfstore/mediawiki-note"
+    "issues": "https://github.com/cmfstore/mediawiki-ext-note/issues",
+    "source": "https://github.com/cmfstore/mediawiki-ext-note"
   },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-kernel": "*"
+    "cmfstore/mediawiki-ext-kernel": "*"
   },
   "autoload": {
     "classmap": [
